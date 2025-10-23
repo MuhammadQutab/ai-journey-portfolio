@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#0b0d10; --card:#12161a; --muted:#a9b3bd; --brand:#4f8cff; --border:#1e232a;
+}
+html, body { height: 100%; }
+body{ background:var(--bg); color:#e8edf2; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+a{ color: var(--brand); }
